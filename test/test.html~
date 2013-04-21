@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Testing Our Simple Calculator</title>
+    <link rel="stylesheet" href="test.css" />
+    <script type="text/javascript" src="../calculator.js"></script>
+
+  </head>
+  <body>
+    <h1>Testing Our Simple Calculator
+    </h1>
+    
+    <ul id="output"></ul>
+    <script type="text/javascript" src="../main.js"></script>
+    
+    <script type="text/javascript">
+      var r = __________.parse("a = 4*8");
+      assert(_______________, "a is 4*8");
+      assert(_____________, "32 == 4*8");
+      r = calculator.parse("a = 4;\nb=a+1;\nc=b*2");
+      assert(____________, "4 is the first computed result ");
+      assert(______________, "a is 4");
+      assert(______________, "b is 5");
+      assert(______________, "c is 10");
+    </script>
+      See the NetTuts+ tutorial at <a href="http://net.tutsplus.com/tutorials/javascript-ajax/quick-tip-quick-and-easy-javascript-testing-with-assert/">Quick and Easy JavaScript Testing</a>
+  </body>
+</html>
